@@ -1,0 +1,30 @@
+.geeks {
+  width: 40%;
+  top: 20%;
+  position: absolute;
+  left: 10%;
+  border-bottom: 5px solid white;
+  overflow: hidden;
+  animation: animate 2s linear forwards;
+}
+
+.geeks h1 {
+  color: white;
+}
+
+@keyframes animate {
+  0% {
+    width: 0vw;
+    height: 0vh; 
+  }
+
+  30% {
+    width: 5vw;
+    height: 0vh; 
+  }
+
+  60% {
+    width: 5vw;
+    height: 8vh;
+  }
+}
