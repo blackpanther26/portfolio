@@ -1,15 +1,16 @@
 .geeks {
-  width: 40%;
+  width: auto;
+  height: 25%;
   top: 20%;
   position: absolute;
   left: 10%;
-  border-bottom: 5px solid white;
-  overflow: hidden;
-  animation: animate 2s linear forwards;
 }
 
 .geeks h1 {
   color: white;
+  border-bottom: 5px solid white;
+  overflow: hidden;
+  animation: animate 2s linear forwards;
 }
 
 @keyframes animate {
